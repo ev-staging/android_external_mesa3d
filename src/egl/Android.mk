@@ -57,7 +57,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libhardware \
 	liblog \
 	libcutils \
-	libsync
+	libsync \
+	libnativewindow
 
 ifeq ($(BOARD_USES_DRM_GRALLOC),true)
 	LOCAL_CFLAGS += -DHAVE_DRM_GRALLOC
